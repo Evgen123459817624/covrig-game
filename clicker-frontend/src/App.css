@@ -1,0 +1,131 @@
+* {
+  font-family: Pixelify Sans;
+}
+
+html {
+    height: 100%;
+    background-image: url('assets/arch.webp');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    user-select: none;
+}
+
+.App {
+  height: 100vh;
+}
+
+.logoImage {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hitbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  margin-top: -5px;
+  z-index: 10;
+}
+
+.scoreLabel {
+  position: absolute;
+  background-image: url('./assets/background-money.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180px;
+  width: 200px;
+  bottom: 0;
+  font-size: 25px;
+  color: rgb(9, 2, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.scoreText {
+  bottom: 0;
+  /*position: absolute;*/
+  width: 155px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 0 -10px 0px;
+}
+
+.moneyText {
+  width: 155px;
+  margin: 0 0 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.scoreText img {
+    width: 45px;
+    height: 45px;
+}
+
+.shopImage {
+  right: 0;
+  top: 0;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}
+
+.shopHitbox {
+  width: 260px;
+  height: 130px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: -30px -85px 0 0;
+  border-radius: 65px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* întunecat */
+  z-index: 5;
+  pointer-events: auto;
+}
+
+.settingsButton {
+    font-size: 30px;
+    color: rgb(29, 11, 7);
+    margin-bottom: 10px;
+}
+
+.settingsButton::before {
+    cursor: pointer;
+}
+.statsContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin: 10px 0 0 10px;
+    font-size: 20px;
+    color: rgb(29, 11, 7);
+}
