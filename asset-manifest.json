@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/covrig-game/static/css/main.36702f3f.css",
+    "main.js": "/covrig-game/static/js/main.2b65eeb1.js",
+    "static/js/453.aaa15d1a.chunk.js": "/covrig-game/static/js/453.aaa15d1a.chunk.js",
+    "static/media/wingless-backgroundMusic.mp3": "/covrig-game/static/media/wingless-backgroundMusic.46184424184ccbc32b7b.mp3",
+    "static/media/arch.webp": "/covrig-game/static/media/arch.6651303838bb2806a4bc.webp",
+    "static/media/covrig_level5.png": "/covrig-game/static/media/covrig_level5.d13f50ae208ddcc5c2f9.png",
+    "static/media/covrig_level4.png": "/covrig-game/static/media/covrig_level4.427d9166ccd50250b307.png",
+    "static/media/covrig_level3.png": "/covrig-game/static/media/covrig_level3.61c274424a00c13a92ea.png",
+    "static/media/covrig_level2.png": "/covrig-game/static/media/covrig_level2.18d47aaef98cb22363c0.png",
+    "static/media/covrig_level1.png": "/covrig-game/static/media/covrig_level1.6da805b61d972cfd657e.png",
+    "index.html": "/covrig-game/index.html",
+    "main.36702f3f.css.map": "/covrig-game/static/css/main.36702f3f.css.map",
+    "main.2b65eeb1.js.map": "/covrig-game/static/js/main.2b65eeb1.js.map",
+    "453.aaa15d1a.chunk.js.map": "/covrig-game/static/js/453.aaa15d1a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36702f3f.css",
+    "static/js/main.2b65eeb1.js"
+  ]
+}
