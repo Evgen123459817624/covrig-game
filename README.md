@@ -45,7 +45,14 @@ git clone https://github.com/Evgen123459817624/covrig-game
 2. Frontend (React)
   Deschide terminalul în folderul frontend/ și instalează dependențele:
   npm install
-  npm start
+
+3. Pornire
+  3.1 Pornirea front-end-ului
+    cd clicker-frontend
+    npm start
+
+  3.2 Pornirea back-end-ului 
+    Rulează CovrigClickerGameApplication.java din clickergame/src/main/java/com.example.clickergame
 
 ---
 
